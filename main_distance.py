@@ -11,7 +11,7 @@ import torch
 from ultralytics import YOLO
 
 # YOLOv8 모델 로드
-model = YOLO('./best_hand.pt')
+model = YOLO('./model/best_hand.pt')
 
 class CameraCali(object):
     def __init__(self):
